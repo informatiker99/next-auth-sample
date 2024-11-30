@@ -1,5 +1,5 @@
 "use client";
-import { SignUp } from "@/actions/signUp";
+import { SignUp } from "@/actions/auth";
 import { useActionState } from "react";
 export function SignupForm() {
   const [state, action] = useActionState(SignUp, undefined);
