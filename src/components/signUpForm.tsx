@@ -21,7 +21,7 @@ export function SignupForm() {
           placeholder="Your Name"
           className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
         />
-        {state?.errors.name && (
+        {state?.errors?.name && (
           <span className="text-sm text-red-500">{state?.errors.name}</span>
         )}
       </div>
@@ -39,7 +39,7 @@ export function SignupForm() {
           placeholder="Your Email"
           className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
         />
-        {state?.errors.email && (
+        {state?.errors?.email && (
           <span className="text-sm text-red-500">{state?.errors.email}</span>
         )}
       </div>
@@ -57,7 +57,7 @@ export function SignupForm() {
           placeholder="Your Password"
           className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
         />
-        {state?.errors.password && (
+        {state?.errors?.password && (
           <span className="text-sm text-red-500">{state?.errors.password}</span>
         )}
       </div>
